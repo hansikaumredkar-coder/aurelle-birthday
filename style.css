@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff7fb;
+  color: #514354;
+}
+
+.hero {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #ffe5ef, #eee6ff);
+}
+
+.eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+  color: #9b6b91;
+}
+
+.cake {
+  margin-top: 20px;
+  font-size: 4rem;
+}
+
+h1 {
+  margin: 15px 0;
+  color: #9b6b91;
+  font-size: clamp(2.5rem, 8vw, 4.5rem);
+}
+
+.intro {
+  max-width: 550px;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 14px 26px;
+  border: none;
+  border-radius: 30px;
+  background: #b98bb4;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.button:hover {
+  background: #9f709a;
+  transform: translateY(-3px);
+}
+
+.surprise-message {
+  max-width: 500px;
+  margin: 25px auto 0;
+  padding: 18px 22px;
+  border-radius: 18px;
+  background: white;
+  color: #9b6b91;
+  font-weight: bold;
+  line-height: 1.7;
+  box-shadow: 0 8px 25px rgba(130, 90, 130, 0.12);
+}
+
+.hidden {
+  display: none;
+}
+
+.note-section {
+  padding: 65px 20px;
+  text-align: center;
+}
+
+.note-section h2 {
+  color: #9b6b91;
+  font-size: 2rem;
+}
+
+.message-card {
+  max-width: 650px;
+  margin: 25px auto 0;
+  padding: 30px;
+  border-radius: 22px;
+  background: white;
+  line-height: 1.8;
+  box-shadow: 0 8px 30px rgba(130, 90, 130, 0.10);
+}
+
+.heart {
+  display: block;
+  margin-top: 18px;
+  color: #b17aa8;
+  font-weight: bold;
+}
+
+footer {
+  padding: 25px;
+  text-align: center;
+  background: #f2e8f5;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 500px) {
+  .message-card {
+    padding: 22px;
+  }
+}
